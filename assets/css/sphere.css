@@ -1,0 +1,93 @@
+:root {
+    --height-pokedex: 300px;
+    --length-pokedex: 250px;
+    --width-pokedex: 15px;
+}
+
+.circle-container-1 {
+    position: absolute;
+    width: var(--width-pokedex);
+    height: var(--width-pokedex);
+    transform-style: preserve-3d;
+    transform: translateX(calc(-.5*var(--width-pokedex)));
+}
+
+.circle-container-2 {
+    position: absolute;
+    width: var(--width-pokedex);
+    height: var(--width-pokedex);
+    transform-style: preserve-3d;
+    transform: translateX(calc(var(--length-pokedex) - .5*var(--width-pokedex)));
+}
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(220, 10, 45);
+
+}
+
+/* X Axis */
+.circle:nth-child(1) {
+    transform: rotate3d(1, 0, 0, 0deg);
+}
+
+.circle:nth-child(2) {
+    transform: rotate3d(1, 0, 0, 36deg);
+}
+
+.circle:nth-child(3) {
+    transform: rotate3d(1, 0, 0, 72deg);
+}
+
+.circle:nth-child(4) {
+    transform: rotate3d(1, 0, 0, 108deg);
+}
+
+.circle:nth-child(5) {
+    transform: rotate3d(1, 0, 0, 144deg);
+}
+
+/* Y Axis */
+.circle:nth-child(6) {
+    transform: rotate3d(0, 1, 0, 0deg);
+}
+
+.circle:nth-child(7) {
+    transform: rotate3d(0, 1, 0, 36deg);
+}
+
+.circle:nth-child(8) {
+    transform: rotate3d(0, 1, 0, 72deg);
+}
+
+.circle:nth-child(9) {
+    transform: rotate3d(0, 1, 0, 108deg);
+}
+
+.circle:nth-child(10) {
+    transform: rotate3d(0, 1, 0, 144deg);
+}
+
+/* Z Axis */
+.circle:nth-child(11) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 0deg);
+}
+
+.circle:nth-child(12) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 36deg);
+}
+
+.circle:nth-child(13) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 72deg);
+}
+
+.circle:nth-child(14) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 108deg);
+}
+
+.circle:nth-child(15) {
+    transform: rotate3d(0, 1, 0, 90deg) rotate3d(1, 0, 0, 144deg);
+}

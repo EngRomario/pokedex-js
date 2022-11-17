@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pokedex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/sphere.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/global.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/pokedex.css"
+    />
+  </head>
+  <body>
+    <div class="scene container grabbable">
+      <div class="pokedex">
+        <div class="pokedex-device pokedex-device--front">
+          <div id="pokedex-device-screen"></div>
+          <ol id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
+          </ol>
+        </div>
+        <div class="pokedex-device pokedex-device--back">
+          <div>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/512px-Pok%C3%A9_Ball_icon.svg.png"
+              alt="pokeball"
+            />
+          </div>
+        </div>
+        <div class="pokedex-device pokedex-device--right"></div>
+        <div class="pokedex-device pokedex-device--left"></div>
+        <div class="pokedex-device pokedex-device--top">
+          <div class="circle-container-1">
+            <!-- X Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Y Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Z Axis -->
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+          <div class="circle-container-2">
+            <!-- X Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Y Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Z Axis -->
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="pokedex-device pokedex-device--bottom">
+          <div class="circle-container-1">
+            <!-- X Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Y Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Z Axis -->
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+          <div class="circle-container-2">
+            <!-- X Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Y Axis -->
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <div class="circle border"></div>
+            <!-- Z Axis -->
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/device.js"></script>
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/pokedex.js"></script>
+  </body>
+</html>
